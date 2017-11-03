@@ -1,5 +1,5 @@
-window.addEventListener("click", onClick);
-function onClick() {
+window.addEventListener("touchstart", onTouch);
+function onTouch() {
   var content = $("#content")
   var result =  $("#result")
 
